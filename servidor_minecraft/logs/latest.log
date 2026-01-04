@@ -1,0 +1,576 @@
+[00:06:56] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.18.2
+[00:06:59] [main/WARN]: Warnings were found!
+ - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.6 recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+[00:07:00] [main/INFO]: Loading 124 mods:
+	- another_furniture 4.0.0
+	- balm 21.0.55
+	   \-- kuma_api 21.0.7
+	- betterdungeons 1.21.1-Fabric-5.1.4
+	   \-- org_reflections_reflections 0.10.2
+	- betteroceanmonuments 1.21.1-Fabric-4.1.2
+	   \-- org_reflections_reflections 0.10.2
+	- bosses_of_mass_destruction 1.10.2-1.21.1
+	   \-- multipart_entities 1.7-1.21
+	- cardinal-components 6.1.3
+	   |-- cardinal-components-base 6.1.3
+	   |-- cardinal-components-block 6.1.3
+	   |-- cardinal-components-chunk 6.1.3
+	   |-- cardinal-components-entity 6.1.3
+	   |-- cardinal-components-item 6.1.3
+	   |-- cardinal-components-level 6.1.3
+	   |-- cardinal-components-scoreboard 6.1.3
+	   \-- cardinal-components-world 6.1.3
+	- carryon 2.2.2
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- collective 8.13
+	- crawl 0.14.9
+	- easymagic 21.1.4
+	- elytraslot 9.0.1+1.21.1
+	- exposure 1.9.11
+	- fabric-api 0.116.7+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.34+37516cd619
+	   |-- fabric-dimensions-v1 4.0.1+65213ef819
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.2.0+3b3cb2e819
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.1.0+b4d813fc19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.15+2475392c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.1+b4d813fc19
+	   |-- fabric-renderer-indigo 1.7.1+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- fallingtree 1.21.1.11
+	- farmersdelight 1.21.1-3.2.2+refabricated
+	   \-- mm 2.3
+	- ferritecore 7.0.2-hotfix
+	- forgeconfigapiport 21.1.6
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- geckolib 4.7.5.1
+	- geophilic 3.4.5
+	- immersive_aircraft 1.4.1+1.21.1
+	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
+	- infinitetrading 4.6
+	- java 21
+	- justenoughbreeding 1.6.2
+	- lithostitched 1.4.11
+	- mcwfences 1.2.1
+	- minecraft 1.21.1
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- mr_dungeons_andtavernsancientcityoverhaul 1-v2
+	- mr_dungeons_andtavernsstrongholdoverhaul 1-v2.1.f
+	- netherchested 21.1.1
+	   \-- limitlesscontainers 21.1.0
+	- puzzleslib 21.1.39
+	- tectonic 3.0.12
+	- trade_cycling 1.21.1-1.0.18
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- fabric-screen-api-v1 2.0.24+b55973446a
+	- travelersbackpack 10.1.29
+	- trinkets 3.10.0
+	- vcinteraction 1.21.1-1.0.8
+	   \-- polymer-registry-sync-manipulator 0.9.9+1.21
+	- villagernames 8.2
+	- visibletraders 0.0.6
+	- voicechat 1.21.1-2.6.7
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- voicechat_api 2.6.0
+	- waystones 21.1.24
+	- xaeroworldmap 1.39.12
+	- yet_another_config_lib_v3 3.6.2+1.21-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yungsapi 1.21.1-Fabric-5.1.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+[00:07:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/Mccosoonose/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:07:00] [main/INFO]: Compatibility level set to JAVA_21
+[00:07:01] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:07:01] [main/WARN]: Reference map 'limitlesscontainers.common.refmap.json' for limitlesscontainers.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:07:01] [main/WARN]: Reference map 'limitlesscontainers.fabric.refmap.json' for limitlesscontainers.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:07:01] [main/WARN]: Reference map 'netherchested.fabric.refmap.json' for netherchested.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[00:07:02] [main/WARN]: Error loading class: com/electronwill/nightconfig/core/io/IoUtils (java.lang.ClassNotFoundException: com/electronwill/nightconfig/core/io/IoUtils)
+[00:07:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[00:07:15] [main/INFO]: Reflections took 125 ms to scan 1 urls, producing 1 keys and 3 values
+[00:07:15] [main/INFO]: Reflections took 8 ms to scan 1 urls, producing 1 keys and 3 values
+[00:07:15] [main/INFO]: Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[00:07:15] [main/INFO]: Reflections took 3 ms to scan 1 urls, producing 1 keys and 1 values
+[00:07:16] [main/INFO]: Loading Collective version 8.13.
+[00:07:16] [main/INFO]: Constructing common components for easymagic:main
+[00:07:16] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[00:07:18] [main/INFO]: Loaded config farmersdelight-common.json
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:gyrodyne
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:biplane
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:airship
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:cargo_airship
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:warship
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:quadrocopter
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:bamboo_hopper
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:bullet
+[00:07:19] [main/ERROR]: No data fixer registered for immersive_aircraft:tiny_tnt
+[00:07:19] [main/INFO]: Constructing common components for limitlesscontainers:main
+[00:07:19] [main/INFO]: Definitely not up to no good
+[00:07:19] [main/INFO]: Constructing common components for netherchested:main
+[00:07:19] [main/INFO]: Constructing common components for puzzleslib:main
+[00:07:19] [main/ERROR]: Failed to initialize visible traders integration
+java.lang.NoSuchMethodException: net.minecraft.class_1646.visibleTraders$forceTradeGeneration()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2850) ~[?:?]
+	at knot/de.maxhenkel.tradecycling.compatibility.VisibleTraders.getRegenerateMethod(VisibleTraders.java:55) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.compatibility.VisibleTraders.init(VisibleTraders.java:49) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.TradeCyclingMod.init(TradeCyclingMod.java:23) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.FabricTradeCyclingMod.onInitialize(FabricTradeCyclingMod.java:14) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) [fabric-loader-0.18.2.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:111) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[00:07:19] [main/ERROR]: Failed to initialize visible traders integration
+java.lang.NoSuchMethodException: net.minecraft.class_3222.visibleTraders$wrapAndSendMerchantOffers(net.minecraft.class_1915,int,net.minecraft.class_1916,int,int,boolean,boolean)
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2850) ~[?:?]
+	at knot/de.maxhenkel.tradecycling.compatibility.VisibleTraders.getSendMerchantOffersMethod(VisibleTraders.java:66) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.compatibility.VisibleTraders.init(VisibleTraders.java:50) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.TradeCyclingMod.init(TradeCyclingMod.java:23) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at knot/de.maxhenkel.tradecycling.FabricTradeCyclingMod.onInitialize(FabricTradeCyclingMod.java:14) ~[trade-cycling-fabric-1.21.1-1.0.18.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:405) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.Hooks.startServer(Hooks.java:63) [fabric-loader-0.18.2.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:111) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.18.2.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+[00:07:20] [main/ERROR]: No data fixer registered for 
+[00:07:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[00:07:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[00:07:20] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[00:07:20] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[00:07:20] [main/INFO]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[00:07:20] [main/INFO]: [voicechat] Compatibility version 20
+[00:07:20] [main/INFO]: [voicechat] Loading plugins
+[00:07:20] [main/INFO]: [voicechat] Loaded 1 plugin(s)
+[00:07:20] [main/INFO]: [voicechat] Initializing plugins
+[00:07:20] [main/INFO]: [voicechat] Initialized 1 plugin(s)
+[00:07:20] [main/INFO]: [voicechat] Registering events for 'vcinteraction'
+[00:07:20] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[00:07:20] [main/INFO]: Reflections took 6 ms to scan 1 urls, producing 1 keys and 3 values
+[00:07:20] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[00:07:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:07:28] [main/INFO]: Loaded 2298 recipes
+[00:07:28] [main/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[00:07:28] [main/INFO]: Loaded 2158 advancements
+[00:07:31] [main/INFO]: Applied 248 biome modifications to 63 of 64 new biomes in 46.75 ms
+[00:07:31] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[00:07:31] [Server thread/INFO]: Dispatching loading event for config netherchested-server.toml
+[00:07:31] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[00:07:31] [Server thread/INFO]: Loading properties
+[00:07:31] [Server thread/INFO]: Default game type: SURVIVAL
+[00:07:31] [Server thread/INFO]: Generating keypair
+[00:07:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:07:32] [Server thread/INFO]: Using epoll channel type
+[00:07:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:07:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:07:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:07:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:07:32] [Server thread/INFO]: Preparing level "world"
+[00:08:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:08:24] [Server thread/INFO]: Time elapsed: 9783 ms
+[00:08:24] [Server thread/INFO]: Done (52.097s)! For help, type "help"
+[00:08:24] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[00:08:24] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[00:08:24] [VoiceChatServerThread/ERROR]: [voicechat] Failed to parse bind IP address 'a0cbf4b62ab073f1'
+java.net.UnknownHostException: a0cbf4b62ab073f1: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1688) ~[?:?]
+	at java.base/java.net.InetAddress.getByName(InetAddress.java:1568) ~[?:?]
+	at knot/de.maxhenkel.voicechat.voice.server.Server.run(Server.java:115) [voicechat-fabric-1.21.1-2.6.7.jar:?]
+[00:08:24] [VoiceChatServerThread/INFO]: [voicechat] Binding to wildcard IP address
+[00:08:24] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 1140
+[00:18:11] [Server thread/INFO]: Matiasauto[/10.241.64.33:58751] logged in with entity id 3 at (-501.5, 64.0, 323.5)
+[00:18:11] [Server thread/INFO]: Loading config from file...
+[00:18:12] [Server thread/INFO]: Matiasauto joined the game
+[00:18:13] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[00:18:13] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[00:18:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2836ms or 56 ticks behind
+[00:18:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[00:18:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[00:18:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[00:18:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2425ms or 48 ticks behind
+[00:22:30] [Server thread/INFO]: CuteNibbaGirl[/10.241.100.99:63296] logged in with entity id 1509 at (-501.11533029875727, 65.0, 321.81346184457874)
+[00:22:30] [Server thread/INFO]: Loading config from file...
+[00:22:30] [Server thread/INFO]: CuteNibbaGirl joined the game
+[00:22:31] [Server thread/INFO]: [voicechat] Received secret request of CuteNibbaGirl (20)
+[00:22:31] [Server thread/INFO]: [voicechat] Sent secret to CuteNibbaGirl
+[00:22:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6727a917-a113-3c1e-b87d-c7031272e532
+[00:22:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6727a917-a113-3c1e-b87d-c7031272e532
+[00:22:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player CuteNibbaGirl (6727a917-a113-3c1e-b87d-c7031272e532) successfully connected to voice chat
+[00:24:41] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> te quedas mas callado aun
+[00:24:45] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> que pasa
+[00:24:53] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> si
+[00:31:33] [Server thread/INFO]: valzx_RV[/10.241.80.10:54652] logged in with entity id 3142 at (-269.69999998807907, -29.0, 1373.699999988079)
+[00:31:33] [Server thread/INFO]: Loading config from file...
+[00:31:33] [Server thread/INFO]: valzx_RV joined the game
+[00:31:34] [Server thread/INFO]: [voicechat] Received secret request of valzx_RV (20)
+[00:31:34] [Server thread/INFO]: [voicechat] Sent secret to valzx_RV
+[00:31:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[00:31:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[00:31:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player valzx_RV (243be506-4b7f-3da2-beb4-d60aa2d85540) successfully connected to voice chat
+[00:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Initializing Opus
+[00:32:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully initialized Opus
+[00:35:28] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> VALENNNNNNNNN DONDE ESTASSSSSSSSS
+[00:36:46] [Server thread/INFO]: valzx_RV was killed while trying to hurt Void Blossom
+[00:36:46] [Server thread/INFO]: Created new backpack backup file for valzx_RV with unique ID travelersbackpack.standard_04.01.2026-00.36.46.dat
+[00:36:53] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> PERO VALEM
+[00:42:06] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> y donde colas esta el void bodrio
+[00:42:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[00:42:24] [Server thread/INFO]: valzx_RV has made the advancement [When in Rome]
+[00:42:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5800ms or 116 ticks behind
+[00:42:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4409ms or 88 ticks behind
+[00:43:32] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> mati
+[00:43:43] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> que haces mi bodrio
+[00:44:46] [Server thread/INFO]: Matiasauto has made the advancement [Extreme Weeding]
+[00:46:04] [Server thread/INFO]: valzx_RV drowned
+[00:47:34] [Server thread/INFO]: CuteNibbaGirl was slain by Zombie
+[00:47:34] [Server thread/INFO]: Created new backpack backup file for CuteNibbaGirl with unique ID travelersbackpack.standard_04.01.2026-00.47.34.dat
+[00:47:45] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ME MATO UN BEBÉ
+[00:48:22] [Server thread/INFO]: CuteNibbaGirl was slain by Zombie
+[00:48:39] [Server thread/INFO]: valzx_RV has made the advancement [Custom Backpacks]
+[00:49:01] [Server thread/INFO]: CuteNibbaGirl was slain by Zombie
+[00:49:16] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> tiene mi espada de diamante auxilio
+[00:50:11] [Server thread/INFO]: valzx_RV has made the advancement [Safe Haven]
+[00:51:08] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> deje caballos aca
+[00:51:19] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> me lleve uno y mori
+[00:51:36] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> lleve dos
+[00:52:23] [Server thread/WARN]: Horse (vehicle of CuteNibbaGirl) moved wrongly! 0.40549685486138287
+[00:52:23] [Server thread/WARN]: Horse (vehicle of CuteNibbaGirl) moved wrongly! 1.016065330621595
+[00:53:41] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> graciaslindo
+[00:53:50] [Server thread/INFO]: valzx_RV was shot by Skeleton
+[00:53:50] [Server thread/INFO]: Created new backpack backup file for valzx_RV with unique ID travelersbackpack.standard_04.01.2026-00.53.50.dat
+[00:55:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4232ms or 84 ticks behind
+[00:55:36] [Server thread/WARN]: Matiasauto moved too quickly! 1.3100918218953552,-2.3862679198146424,-17.575653247711557
+[00:57:04] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> yo te amo a ti
+[00:59:51] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> hay un cripe en la casa we
+[01:00:51] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oye no puedo
+[01:01:04] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> desaparecieron esos waypoints
+[01:02:17] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> me llevan a peru auxilio
+[01:03:12] [Server thread/WARN]: Matiasauto moved wrongly!
+[01:03:56] [Server thread/INFO]: valzx_RV has made the advancement [Cobweb Entanglement]
+[01:06:37] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> si...blanco..
+[01:06:49] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pinche gato quemado
+[01:07:12] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ke, no escuche
+[01:07:48] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> y el naranja
+[01:08:05] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> YA NO TENGO EXPERIENCIA XDDDDDDD
+[01:09:09] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> JAJAJAJA QUE GATO TAN PELOTUDO
+[01:10:11] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> cual gato nos falta
+[01:10:13] [Server thread/INFO]: valzx_RV has made the advancement [Diamond Tier Upgrade]
+[01:10:38] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> el tiene omofobia
+[01:10:46] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> CALAJO
+[01:11:03] [Server thread/INFO]: [Not Secure] <valzx_RV> osea 3 gatos que me odian
+[01:11:05] [Server thread/INFO]: [Not Secure] <valzx_RV> ok,..,ok,.,.,.
+[01:11:12] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> noooooooooooooooooooooo valeeeeeeeeeeen
+[01:11:23] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pero son gatos negros, no pueden opinar
+[01:11:56] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> .....................
+[01:11:59] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> mojang
+[01:12:02] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> denuncia
+[01:12:12] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> fue maldicion de erobrine
+[01:12:48] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> el cafesito con blanquito y ojos azules
+[01:13:11] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> el gris esta bello too
+[01:13:28] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> voy a visitar dos aldeas
+[01:13:44] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> y por cierto, ya salio un caballito de 13 de velocidad
+[01:14:16] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pero tiene salto de 1 XDDDDDDDDDDDDDDDDDDDD
+[01:14:28] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> 1.98
+[01:15:32] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> estoy llorando sangre
+[01:15:39] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> que fue ese salto de cagadaaaaaaaaaaaaa
+[01:15:54] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> tendra sepso con uno que si salta bn
+[01:16:05] [Server thread/INFO]: [Not Secure] <valzx_RV> :eyes:
+[01:16:23] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> bajo.
+[01:16:59] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> yo matandolo..
+[01:17:10] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> si wey ya son un putero
+[01:17:14] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> MUCHOS CABALLOS
+[01:19:03] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pa los caballos
+[01:25:49] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> mati mata a este pelotudo
+[01:26:34] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ESPERO QUE NOSEA EL DE 13
+[01:26:49] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> SI ERA WEY XD
+[01:27:16] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ayudame a llevar a los caballos wey
+[01:27:47] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> AAAAAAA
+[01:28:33] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> SALIO DE 12.92
+[01:28:38] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> CARAJO
+[01:29:01] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pero no es 13 cabRON
+[01:29:11] [Server thread/INFO]: [Not Secure] <valzx_RV> carbon
+[01:30:34] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> qwea
+[01:30:46] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> no se nota wei
+[01:31:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15610ms or 312 ticks behind
+[01:31:06] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> horse venganza..............
+[01:31:49] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> tengo una idea...........
+[01:31:55] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> SIGUWMW
+[01:32:46] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> VEN
+[01:33:32] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> DDDDDDDDDDDDDDDDDX
+[01:35:26] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> uwu
+[01:36:54] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> kayese alaverga
+[01:37:16] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> AYUDAAAAAAAAAAAAAAAAAAAAAAA
+[01:38:06] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> una foto aqui en el letrero
+[01:38:31] [Server thread/INFO]: valzx_RV lost connection: Disconnected
+[01:38:31] [Server thread/INFO]: valzx_RV left the game
+[01:38:31] [Server thread/INFO]: [voicechat] Disconnecting client valzx_RV
+[01:38:31] [Server thread/INFO]: Matiasauto lost connection: Disconnected
+[01:38:31] [Server thread/INFO]: Matiasauto left the game
+[01:38:31] [Server thread/INFO]: [voicechat] Disconnecting client Matiasauto
+[01:38:33] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[01:38:33] [Server thread/INFO]: CuteNibbaGirl fell from a high place
+[01:38:33] [Server thread/INFO]: Created new backpack backup file for CuteNibbaGirl with unique ID travelersbackpack.standard_04.01.2026-01.38.33.dat
+[01:38:40] [Server thread/INFO]: Matiasauto[/10.241.64.33:52604] logged in with entity id 40899 at (-518.392915498176, 109.64044866601105, 349.4177926054398)
+[01:38:40] [Server thread/INFO]: Loading config from file...
+[01:38:40] [Server thread/INFO]: Matiasauto joined the game
+[01:38:40] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[01:38:40] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[01:38:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:38:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:38:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[01:38:43] [Server thread/INFO]: valzx_RV[/10.241.80.10:56752] logged in with entity id 40907 at (-502.783833539, 64.0, 333.2376346713736)
+[01:38:43] [Server thread/INFO]: Loading config from file...
+[01:38:43] [Server thread/INFO]: valzx_RV joined the game
+[01:38:44] [Server thread/INFO]: [voicechat] Received secret request of valzx_RV (20)
+[01:38:44] [Server thread/INFO]: [voicechat] Sent secret to valzx_RV
+[01:38:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[01:38:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[01:38:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player valzx_RV (243be506-4b7f-3da2-beb4-d60aa2d85540) successfully connected to voice chat
+[01:38:53] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> OYE SUCIA MARACA CARA DE MI POLLA MALDITA MUERE SUCIA QUE VERGA TE PASA PINCHE CABRON
+[01:39:34] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> EL IJO DE PERRA SE CREE AGUILA O KE
+[01:40:09] [Server thread/INFO]: Matiasauto lost connection: Disconnected
+[01:40:09] [Server thread/INFO]: Matiasauto left the game
+[01:40:09] [Server thread/INFO]: [voicechat] Disconnecting client Matiasauto
+[01:40:09] [Server thread/WARN]: CuteNibbaGirl moved wrongly!
+[01:40:17] [Server thread/INFO]: Matiasauto[/10.241.64.33:56439] logged in with entity id 41109 at (-505.84826335934395, 88.80034919970608, 382.8174747263825)
+[01:40:17] [Server thread/INFO]: Loading config from file...
+[01:40:17] [Server thread/INFO]: Matiasauto joined the game
+[01:40:18] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[01:40:18] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[01:40:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:40:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:40:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[01:40:30] [Server thread/INFO]: [Not Secure] <valzx_RV> i hate nigers
+[01:42:10] [Server thread/INFO]: Matiasauto lost connection: Disconnected
+[01:42:10] [Server thread/INFO]: Matiasauto left the game
+[01:42:10] [Server thread/INFO]: [voicechat] Disconnecting client Matiasauto
+[01:42:11] [Server thread/INFO]: CuteNibbaGirl fell from a high place
+[01:42:11] [Server thread/INFO]: Created new backpack backup file for CuteNibbaGirl with unique ID travelersbackpack.standard_04.01.2026-01.42.11.dat
+[01:42:18] [Server thread/INFO]: Matiasauto[/10.241.64.33:56562] logged in with entity id 41836 at (-497.1422008211144, 109.08605189953232, 365.9980985821759)
+[01:42:18] [Server thread/INFO]: Loading config from file...
+[01:42:18] [Server thread/INFO]: Matiasauto joined the game
+[01:42:18] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[01:42:18] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[01:42:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:42:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:42:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[01:42:32] [Server thread/WARN]: Matiasauto moved wrongly!
+[01:42:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ef2c8772-a27b-3465-aca2-a7899f28f95e timed out
+[01:42:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Matiasauto
+[01:42:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Matiasauto
+[01:42:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24088ms or 481 ticks behind
+[01:42:56] [Server thread/INFO]: Matiasauto lost connection: Disconnected
+[01:42:56] [Server thread/INFO]: Matiasauto left the game
+[01:42:56] [Server thread/INFO]: [voicechat] Disconnecting client Matiasauto
+[01:42:58] [Server thread/INFO]: Matiasauto[/10.241.64.33:54394] logged in with entity id 41886 at (-494.693034829473, 65.62045556072789, 367.08754559332823)
+[01:42:58] [Server thread/INFO]: Loading config from file...
+[01:42:58] [Server thread/INFO]: Matiasauto joined the game
+[01:42:58] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[01:42:58] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[01:42:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:43:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[01:43:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[01:43:00] [Server thread/INFO]: valzx_RV lost connection: Disconnected
+[01:43:00] [Server thread/INFO]: valzx_RV left the game
+[01:43:00] [Server thread/INFO]: [voicechat] Disconnecting client valzx_RV
+[01:43:30] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> llevame al way point de joako
+[01:43:52] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> glosero
+[01:43:57] [Server thread/INFO]: valzx_RV[/10.241.80.10:59861] logged in with entity id 42164 at (-487.0639320832283, 65.0, 346.2996195594375)
+[01:43:57] [Server thread/INFO]: Loading config from file...
+[01:43:57] [Server thread/INFO]: valzx_RV joined the game
+[01:43:59] [Server thread/INFO]: [voicechat] Received secret request of valzx_RV (20)
+[01:43:59] [Server thread/INFO]: [voicechat] Sent secret to valzx_RV
+[01:44:08] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> kayate perra
+[01:44:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[01:44:27] [Server thread/INFO]: valzx_RV lost connection: Timed out
+[01:44:27] [Server thread/INFO]: valzx_RV left the game
+[01:44:27] [Server thread/INFO]: [voicechat] Disconnecting client valzx_RV
+[01:44:36] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> uy
+[01:45:51] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oye amor y que tal lejos esta la jungla
+[01:46:05] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> taN
+[01:46:22] [Server thread/INFO]: valzx_RV[/10.241.80.10:64914] logged in with entity id 45135 at (-487.0639320832283, 65.0, 346.2996195594375)
+[01:46:22] [Server thread/INFO]: Loading config from file...
+[01:46:22] [Server thread/INFO]: valzx_RV joined the game
+[01:46:23] [Server thread/INFO]: [voicechat] Received secret request of valzx_RV (20)
+[01:46:23] [Server thread/INFO]: [voicechat] Sent secret to valzx_RV
+[01:46:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[01:46:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 243be506-4b7f-3da2-beb4-d60aa2d85540
+[01:46:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player valzx_RV (243be506-4b7f-3da2-beb4-d60aa2d85540) successfully connected to voice chat
+[01:46:54] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> tf
+[01:47:11] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> 11% trigo 98% vacas
+[01:47:30] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> mira el salto de su caballo
+[01:47:44] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> solo a ti se te ocurre tirarme.
+[01:49:24] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> 17 DE EXPERIENCIA? ESTAN PENDEJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[01:49:39] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> SI
+[01:49:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3820ms or 76 ticks behind
+[01:49:55] [Server thread/WARN]: valzx_RV moved too quickly! -8.899459573217428,0.0,4.700815562653304
+[01:50:48] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ahora si tengo todos los waypoints
+[01:50:57] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> cuales
+[01:51:12] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> pero a donde son? tan importantes
+[01:51:18] [Server thread/INFO]: valzx_RV lost connection: Disconnected
+[01:51:18] [Server thread/INFO]: valzx_RV left the game
+[01:51:18] [Server thread/INFO]: [voicechat] Disconnecting client valzx_RV
+[01:52:16] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> nah, no es tanto entonces, nunca voy allá
+[01:52:40] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oki
+[01:53:27] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> w
+[01:53:36] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> te amo..
+[01:53:52] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> estas bien herido
+[01:56:03] [Server thread/WARN]: Matiasauto moved wrongly!
+[01:56:03] [Server thread/WARN]: Matiasauto moved wrongly!
+[01:56:03] [Server thread/WARN]: Matiasauto moved wrongly!
+[01:56:18] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> hi
+[01:56:56] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> te amo
+[01:57:44] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> YA LO HABIA COLOCADO
+[01:59:47] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> XD
+[02:00:24] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> sis
+[02:00:57] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ...................
+[02:01:09] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> no me pegues por favor..
+[02:01:57] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> como produces cripers
+[02:02:08] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> how
+[02:03:48] [Server thread/WARN]: Matiasauto moved wrongly!
+[02:05:05] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oye we puta basura hermano, no me aparecia y si la guarde, y lo mismo con la casa de joaco
+[02:05:32] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> tienes razón
+[02:06:18] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> como viste que capturaron al presidente de venezuela XD
+[02:06:38] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> osea que si supiste, perdon, el mexicano
+[02:06:56] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ermano este año va con todo
+[02:07:17] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> aora liberen cubA
+[02:08:11] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> q wonitas alas
+[02:10:43] [Server thread/INFO]: CuteNibbaGirl has made the advancement [Eye Spy]
+[02:12:05] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ROBAR LOOOT
+[02:13:18] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> aqui...
+[02:13:58] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> cum.
+[02:16:09] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> SIIIIIIIIIIIIIIIIIIIIII
+[02:17:57] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> Si....................
+[02:18:29] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> mira
+[02:19:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30341ms or 606 ticks behind
+[02:19:00] [Server thread/INFO]: CuteNibbaGirl lost connection: Disconnected
+[02:19:00] [Server thread/INFO]: CuteNibbaGirl left the game
+[02:19:00] [Server thread/INFO]: [voicechat] Disconnecting client CuteNibbaGirl
+[02:19:00] [Server thread/INFO]: Matiasauto lost connection: Disconnected
+[02:19:00] [Server thread/INFO]: Matiasauto left the game
+[02:19:00] [Server thread/INFO]: [voicechat] Disconnecting client Matiasauto
+[02:19:06] [Server thread/INFO]: CuteNibbaGirl[/10.241.100.99:53430] logged in with entity id 59738 at (-531.3544594170922, -16.0, -1498.076733889176)
+[02:19:06] [Server thread/INFO]: Loading config from file...
+[02:19:06] [Server thread/INFO]: CuteNibbaGirl joined the game
+[02:19:07] [Server thread/INFO]: [voicechat] Received secret request of CuteNibbaGirl (20)
+[02:19:07] [Server thread/INFO]: [voicechat] Sent secret to CuteNibbaGirl
+[02:19:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 6727a917-a113-3c1e-b87d-c7031272e532
+[02:19:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 6727a917-a113-3c1e-b87d-c7031272e532
+[02:19:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player CuteNibbaGirl (6727a917-a113-3c1e-b87d-c7031272e532) successfully connected to voice chat
+[02:19:12] [Server thread/INFO]: Matiasauto[/10.241.64.33:50716] logged in with entity id 60050 at (-532.449820306715, -18.0, -1493.564151949271)
+[02:19:12] [Server thread/INFO]: Loading config from file...
+[02:19:12] [Server thread/INFO]: Matiasauto joined the game
+[02:19:13] [Server thread/INFO]: [voicechat] Received secret request of Matiasauto (20)
+[02:19:13] [Server thread/INFO]: [voicechat] Sent secret to Matiasauto
+[02:19:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[02:19:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player ef2c8772-a27b-3465-aca2-a7899f28f95e
+[02:19:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Matiasauto (ef2c8772-a27b-3465-aca2-a7899f28f95e) successfully connected to voice chat
+[02:24:26] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> YA LLEGUE AMOR
+[02:24:35] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ME HICE TÉ
+[02:24:45] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> de gengibre.............
+[02:24:57] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> YO TE LO PREPAROOOOOOOO
+[02:25:38] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> este lugar estaria hermoso, haci un castillo como el que construyen cerca de nuestra casa
+[02:25:48] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> haci...............
+[02:26:33] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> hay una wea de amatista y todo
+[02:27:52] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oki..por que esta medio lejos eh
+[02:28:17] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> jejej vamos
+[02:28:38] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> oye pero primero vamos por comida
+[02:29:29] [Server thread/INFO]: CuteNibbaGirl has made the advancement [The End?]
+[02:29:43] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> por favor, ten cuidado
+[02:30:21] [Server thread/INFO]: [Not Secure] <CuteNibbaGirl> ALV
